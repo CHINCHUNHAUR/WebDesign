@@ -1,16 +1,30 @@
 body {
-    background-color: rgb(225, 115, 115);
     text-align: center;
 }
 
 h1 {
     color: whitesmoke;
     font-family: Comic Sans MS;
+    background-image: url("https://rare-gallery.com/thumbnail/1304699-Shooting-Star-CloudGirl-HD-Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#description {
+    color: whitesmoke;
+    font-size: 30px;
+    background-image: url("https://cutewallpaper.org/28/desktop-wallpaper-full-screen-in-zip-file/794231967.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
-p {
-    color: whitesmoke;
-    font-size: 30px;
+div#image {
+    background-image: url("https://marketplace.canva.com/EAFDurDElGY/1/0/1600w/canva-blue-white-anime-desktop-wallpaper-oNSlxUgbM0o.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 

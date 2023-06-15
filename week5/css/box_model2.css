@@ -1,0 +1,22 @@
+div#box1 {
+    background-image: url("../img/794231967.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    padding: 10px 20px 30px 40px;
+    border: 5px solid rgb(49, 14, 224);
+    margin: 50px;
+}
+
+div#box2 {
+    background-image: url("../img/Sp.webp");
+    background-size: 150px;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(208, 12, 12);
+    margin: 50px;
+}
