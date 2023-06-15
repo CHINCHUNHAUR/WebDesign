@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(225, 115, 115);
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Comic Sans MS;
+
+}
+
+p {
+    color: whitesmoke;
+    font-size: 30px;
+}
