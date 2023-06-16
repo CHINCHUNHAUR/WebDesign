@@ -7,5 +7,21 @@ body {
 }
 
 div {
-    text-align: left;
+    margin-top: 150px;
+    border: 8px solid black;
+    width: 600px;
+    padding: 0px 50px 0px 50px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 67px;
+    font-family: 'Comforter', cursive;
 }
