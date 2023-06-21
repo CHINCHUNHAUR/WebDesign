@@ -9,14 +9,33 @@ h1 {
     margin: auto;
 }
 
-div {
+div#image {
     display: flex;
 }
 
 div#c1 {
-
+    text-align: center;
+    width: 400px;
+    margin: 100px;
 }
 
-div#c2{
-    margin: 20px;
+div#c2 {
+    text-align: center;
+    width: 400px;
+    margin: 90px;
+}
+
+div#c3 {
+    text-align: center;
+    width: 400px;
+    margin: 100px;
+}
+
+h2 {
+    font-family: 'Comforter', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
 }
