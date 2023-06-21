@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    margin:0%;
+    margin-top: 100px;
+}
+
+div#border {
+    border: 5px solid black;
+    border-right: 0px;
+    width: 600px;
+    padding: 0px 50px 0px 50px;
+    margin-left: 100px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Comforter', cursive;
+}
