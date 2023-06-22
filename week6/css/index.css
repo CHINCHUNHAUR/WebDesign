@@ -1,0 +1,76 @@
+#container {
+    background-color: #ead9d9;
+    max-width: 1024px;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+/* The navbar container */
+.topnav {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+/* Navbar links */
+.topnav div a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #e6d5d5;
+    color: rgb(0, 0, 0);
+}
+
+/* Row */
+.row {
+    display: flex;
+
+}
+
+/* Column */
+.column {
+    width: 33.33%;
+}
+
+/* Responsive layout - makes the three */
+@media screen and (max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    #column3 {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the three */
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

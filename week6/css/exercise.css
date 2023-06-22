@@ -1,0 +1,54 @@
+#container {
+    background-color: #fdfdfd;
+    max-width: 1024px;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(144, 140, 140);
+}
+
+.header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* The navbar container */
+.topnav {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+/* Navbar links */
+.topnav div a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Column */
+.column1 {
+    width: 66%;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.column2 {
+    width: 33%;
+ flex-direction: column;
+
+}
+
+
