@@ -1,0 +1,102 @@
+
+body {
+    margin: 0px;
+    background-color: #4a4747;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+
+}
+
+.topnav div a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #e6d5d5;
+    color: rgb(0, 0, 0);
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    padding-right: 10px;
+}
+
+
+#menu{
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1%;
+}
+.intro{
+    text-align: center;
+    font-size: 25px;
+}
+
+#img{
+    display: block;
+    margin-left: 35%;
+    width: 50%;
+}
+
+.introduction{
+    margin: 1%;
+    background-color: white;
+    padding: 1%;
+}
+
+.git{
+    background-color: white;
+    margin: 1%;
+    padding: 3%;
+}
+
+#github{
+    text-align: center;
+    margin: 1%;
+
+}
+
+.githublink{
+    font-size: 22px;
+    text-align: left;
+    padding: 2% 0%;
+}

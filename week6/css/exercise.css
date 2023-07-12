@@ -45,10 +45,29 @@ body {
 
 }
 
-.column2 {
-    width: 33%;
- flex-direction: column;
-
+.column2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 0.5% 0%;
+    flex-direction: column;
 }
 
+.about{
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+}
+.post{
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+}
 
+#footer{
+    background-color: LightGray;
+    margin: 1%;
+    padding: 3%;
+    text-align: center;
+    width:100%;
+}
