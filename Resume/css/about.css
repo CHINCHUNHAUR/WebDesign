@@ -1,0 +1,178 @@
+body{
+    margin: 0%;
+    background-color: #DAFFFB;
+}
+
+.bar{
+    background-color: #083656;
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    align-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #083656;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.about{
+    display: flex;
+}
+
+.img{
+    border-bottom: solid;
+    width: 150px;
+    margin-bottom: 0px;
+    height: 91px;
+}
+
+.person{
+    position: relative;
+    left: 30%;
+}
+
+.imgbg{
+    height: 900px;
+    background-color: #0B666A;
+    position: relative;
+    bottom: 1.8%;
+}
+
+h2{
+    position: relative;
+    top: 60%;
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 35px;
+}
+
+.content1{
+    background-color: #0B666A;
+    position: relative;
+    bottom: 4.2%;
+    height: 770.5px;
+}
+
+.profile{
+    position: relative;
+    top: 62px;
+    height: 600px;
+}
+
+.title1{
+    border-bottom: solid;
+    border-left: solid;
+    width: 280px;
+    margin-top: 0px;
+    height: 130px;
+    margin-bottom: 0%;
+}
+
+p{
+    margin-left: 10px;
+    font-size: 25px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+.work{
+    position: relative;
+    top: 192px;
+    height: 600px;
+}
+
+.title2{
+    border-bottom: solid;
+    border-left: solid;
+    width: 406px;
+    margin-top: 0px;
+    height: 160px;
+    margin-bottom: 4px;
+}
+
+.worktitle{
+    position: relative;
+    top: 46%;
+    text-align: center;
+}
+
+.content2{
+    background-color: #0B666A;
+    position: relative;
+    bottom: 4.2%;
+    height: 610.5px;
+    padding-right: 15px;
+}
+
+.project{
+    position: relative;
+    top: 352px;
+    height: 500px;
+}
+
+.title3{
+    border-bottom: solid;
+    border-left: solid;
+    width: 362px;
+    margin-top: 0px;
+    height: 190px;
+    margin-bottom: 4px;
+    border-right: solid;
+}
+
+.projecttitle{
+    position: relative;
+    top: 77%;
+    
+}
+
+.content3{
+    background-color: #0B666A;
+    position: relative;
+    bottom: 5%;
+    height: 420.5px;
+    width: 367px;
+}
+
+.service{
+    position: relative;
+    top: 252px;
+    height: 600px;
+}
+
+.title4{
+    border-bottom: solid;
+    width: 310px;
+    margin-top: 0px;
+    height: 100px;
+    margin-bottom: 4px;
+}
+
+.content4{
+    background-color: #0B666A;
+    position: relative;
+    bottom: 4.2%;
+    height: 610.5px;
+}
