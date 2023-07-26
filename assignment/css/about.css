@@ -14,6 +14,8 @@ body{
 .topnav {
     overflow: hidden;
     background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .topnav a {
@@ -30,150 +32,79 @@ body{
     color: black;
 }
 
-h1{
-    text-align: center;
-    margin: 50px;
-    margin-bottom: 100px;
-    font-size: 45px;
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 0;
 }
 
-.about{
+.aboutme{
     display: flex;
 }
 
-.img{
-    border-bottom: solid;
-    width: 150px;
-    margin-bottom: 0px;
-    height: 91px;
+.left{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 1000px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: justify;
 }
 
-.person{
-    position: relative;
-    left: 30%;
-}
-
-.imgbg{
-    height: 900px;
-    background-color: #0B666A;
-    position: relative;
-    bottom: 1.8%;
-}
-
-h2{
-    position: relative;
-    top: 60%;
-    text-align: center;
-    margin-bottom: 0%;
+#me{
+    font-weight: bolder;
     font-size: 35px;
-}
-
-.content1{
-    background-color: #0B666A;
-    position: relative;
-    bottom: 4.2%;
-    height: 770.5px;
-}
-
-.profile{
-    position: relative;
-    top: 62px;
-    height: 600px;
-}
-
-.title1{
-    border-bottom: solid;
-    border-left: solid;
-    width: 280px;
-    margin-top: 0px;
-    height: 130px;
-    margin-bottom: 0%;
-}
-
-p{
-    margin-left: 10px;
-    font-size: 25px;
-    padding-right: 20px;
-    color: white;
-}
-
-
-.work{
-    position: relative;
-    top: 192px;
-    height: 600px;
-}
-
-.title2{
-    border-bottom: solid;
-    border-left: solid;
-    width: 406px;
-    margin-top: 0px;
-    height: 160px;
-    margin-bottom: 4px;
-}
-
-.worktitle{
-    position: relative;
-    top: 46%;
-    text-align: center;
-}
-
-.content2{
-    background-color: #0B666A;
-    position: relative;
-    bottom: 4.2%;
-    height: 610.5px;
-    padding-right: 15px;
-}
-
-.project{
-    position: relative;
-    top: 352px;
-    height: 500px;
-}
-
-.title3{
-    border-bottom: solid;
-    border-left: solid;
-    width: 362px;
-    margin-top: 0px;
-    height: 190px;
-    margin-bottom: 4px;
-    border-right: solid;
-}
-
-.projecttitle{
-    position: relative;
-    top: 77%;
-    
-}
-
-.content3{
-    background-color: #0B666A;
-    position: relative;
-    bottom: 5%;
-    height: 420.5px;
-    width: 367px;
+    margin: 0;
 }
 
 .service{
-    position: relative;
-    top: 252px;
-    height: 600px;
+    width: 800px;
+    margin: 106px 100px 0px 100px;
 }
 
-.title4{
-    border-bottom: solid;
-    width: 310px;
-    margin-top: 0px;
-    height: 100px;
-    margin-bottom: 4px;
+.software{
+    background-color: white;
+    width: 400px;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 50px;
 }
 
-.content4{
-    background-color: #0B666A;
-    position: relative;
-    bottom: 4.2%;
-    height: 610.5px;
+#service1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.application{
+    background-color: white;
+    width: 400px;
+    text-align: justify;
+    padding: 30px;
+}
+
+#service2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .topnav a {
+        padding: 12px 8px;
+    }
+    
+    .aboutme {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .left {
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+
+    .service {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
 }

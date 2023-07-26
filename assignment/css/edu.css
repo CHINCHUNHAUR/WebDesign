@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+    position: relative;
+}
+
+.bar{
+    background-color: #083656;
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    align-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #083656;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#title{
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.education{
+    background-color: #F9F9F9;
+    width: 1150px;
+    float: right;
+    position: relative;
+    padding-bottom: 123px;
+}
+
+.degree{
+    margin-top: 70px;
+    margin-left: 270px;
+}
+
+.diploma{
+    margin-top: 70px;
+    margin-left: 270px;
+}
+
+.secondary{
+    margin-top: 70px;
+    margin-left: 270px;
+}
+
+.button{
+    background-color: #4D5B60;
+    width: 620px;
+    text-align: left;
+    padding: 30px;
+    text-decoration: none;    
+    overflow: hidden;
+    color: white;
+}
+
+.button:focus{
+    background-color: #176B87;
+}
+
+#myDIV, #myDIV2, #myDIV3{
+    background-color: white;
+    margin-top: 10px;
+    width: 620px;
+}
+
+.cgpa{
+    padding: 50px 20px 20px 0px;
+    text-align: right;
+}
+
+#myDIV3{
+    padding-bottom: 20px;
+}
+
+.img{
+    position: absolute;
+    top: 400%;
+    left: 10%;
+}
+
+@media (max-width: 1400px) {
+
+    .topnav a {
+        padding: 12px 8px;
+    }
+
+    .education {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .degree, .diploma, .secondary {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cgpa {
+        padding-right: 10px;
+    }
+
+    #myDIV, #myDIV2, #myDIV3 {
+        padding-bottom: 0;
+        max-width:100%;
+        padding-left: 20px;
+    }
+
+    .img {
+        position: static;
+        margin-top: 30px;
+        max-width: 300px;
+    }
+}

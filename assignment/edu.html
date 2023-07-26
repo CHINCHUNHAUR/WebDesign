@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang>
+
+<head>
+    <title>Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/edu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bar">
+
+        <div class="logo">
+            <img src="img/kamen_rider_geats_logo_by_zettstuff_dflyb1z-fullview.png" alt width="10%">
+        </div>
+
+
+        <div class="topnav">
+            <a class="home" href="home.html">Home</a>
+            <a class="about" href="about.html">About Me</a>
+            <a class="myskill" href="skill.html">My Skill</a>
+            <a class="edu" href="edu.html">Education</a>
+            <a class="contact" href="contact.html">Contact Me</a>
+        </div>
+
+    </div>
+
+    <div class="education">
+        <p id="title">E D U C A T I O N</p>
+
+                <div class="degree">
+                    <button class="button" onclick="myFunction()">
+                        <p>Degree In Software Engineering</p>
+                    </button>
+
+                    <div id="myDIV" style="display: none;">
+                        <p>Start studying Software engineering at 2022 in New Era University college after graduating
+                            from
+                            diploma.
+                            Studied knowledge about C++, html, css, bootstrap, and laravel.</p>
+                        <p class="cgpa">CGPA: 3.57</p>
+                    </div>
+
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("myDIV");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+                    </script>
+                </div>
+
+        <div class="diploma">
+            <button class="button" onclick="myFunction2()">
+                <p class="buttontitle">Diploma In Internet Technology</p>
+            </button>
+
+            <div id="myDIV2" style="display: none;">
+                <p>Start studying information-technology at 2019 in New Era University college after graduating from
+                    secondary school.
+                    Studied knowledge about javascript, networking and pc maintainance.</p>
+                <p class="cgpa">CGPA: 3.41</p>
+            </div>
+
+            <script>
+                function myFunction2() {
+                    var x = document.getElementById("myDIV2");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+
+        <div class="secondary">
+            <button class="button" onclick="myFunction3()">
+                <p class="buttontitle">Secondary School</p>
+            </button>
+
+            <div id="myDIV3" style="display: none;">
+                <p>Study in SMJK Yu Hua for secondary school from 2013 to 2017, studied basic knowledge for chinese,
+                    malay and english in an accounting class</p>
+            </div>
+
+            <script>
+                function myFunction3() {
+                    var x = document.getElementById("myDIV3");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+    </div>
+
+    <img src="img/education 1.png" alt class="img">
+
+</body>
+
+</html>
